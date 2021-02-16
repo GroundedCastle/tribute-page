@@ -4,6 +4,6 @@ This project required that I follow predefined user stories. This was an opportu
 
 - The command line, including the essential git workflow and developing more comprehensive git commit messages
 
-- Responsive imagery by using media queries to alter the div padding
+- Responsive imagery by using media queries to alter div padding
 
 For more information about this project, check out https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page.
