@@ -1,4 +1,4 @@
-This project required that I follow predefined user stories. This was an opportunity to not only practice adherence to client specifications, it was also a great to practice:
+This project required that I follow predefined user stories. This was an opportunity to not only practice adherence to client specifications, it was also great to practice:
 
 - Accessibility by using alt tags, legible fonts, and responsive relative-sized typography.
 
