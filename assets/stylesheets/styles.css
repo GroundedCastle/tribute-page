@@ -28,17 +28,19 @@
 */
 
 body {
-    font-family: 'Roboto', sans-serif;
     color: rgb(51, 51, 51);
     background-color: gainsboro;
     text-align: center;
 }
 
+
 h3 {
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.8rem;
   text-align: center;
   margin-bottom: 3rem;
+  color:rgb(68, 68, 68);
+  letter-spacing: .5px;
 }
 
 p {
@@ -47,31 +49,74 @@ p {
   margin-right: auto;
   padding: 2rem;
   text-align: left;
-  max-width: 65ch;
+  max-width: 75ch;
+}
+
+#main {
+  font-family: 'Roboto', sans-serif;
 }
 
 
 #title {
   font-weight: 800;
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
   margin-top: 3rem;
-  letter-spacing: .5px;
+  letter-spacing: 1.5px;
 }
 
 #img-div {
   background: white;
-  padding: 50px 50px 20px;
-  margin: 0;
+  padding: 50px 30px 20px;
+  margin: 20px;
 }
+
+
+@media screen and (min-width: 900px) {
+  #img-div {
+    padding: 50px 100px 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #img-div {
+    padding: 50px 200px 20px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  #img-div {
+    padding: 50px 300px 20px;
+  }
+}
+
 
 #image {
   margin-left: auto;
   margin-right: auto;
 }
 
+
 #img-caption {
   font-size: 1.6rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding: 2rem;
 }
+
+#tribute-info h2 {
+  font-size: 3.7rem;
+}
+
+#tribute-link {
+  color:rgb(51, 51, 51);
+  transition: color 200ms ease;
+}
+
+#tribute-link:visited {
+  color: rgb(51, 51, 51);
+}
+
+#tribute-link:hover {
+  color: #006fc6;
+}
+
+
